@@ -14,7 +14,7 @@ st.set_page_config(
 # ------------------------------------------------------------------
 # Load Data
 # ------------------------------------------------------------------
-df = pd.read_csv("../data/world_happiness_2023.csv")
+df = pd.read_csv("data/world_happiness_2023.csv")
 
 df.columns = [
     "Country",
